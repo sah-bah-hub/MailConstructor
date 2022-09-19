@@ -31,7 +31,6 @@ import DeleteBlockComponent from "DeleteBlockComponent.vue"
 </template>
 
 <script>
-    import { saveAs } from 'file-saver';
     export default {
         name: "SideMenuComponent",
         props: ["blocks", "subject","type"],

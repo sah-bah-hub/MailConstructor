@@ -12,10 +12,10 @@
             <div :class="$style.typeContainer">
                 <label for="type"> Тип Блока:</label>
                 <select name="type" :value="block.type" v-model="block.type">
-                    <option value="text_on_background">text_on_background</option>
-                    <option value="paragraph">параграф</option>                    
-                    <option value="paragraph_header">paragraph_header</option>
-                    <option value="button">button</option>
+                    <option value="text_on_background">Текст на подложке</option>
+                    <option value="paragraph">Параграф</option>                    
+                    <option value="paragraph_header">Параграф заголовок</option>
+                    <option value="button">Кнопка</option>
                 </select>
             </div>
             <textarea name="" v-model="block.text"></textarea>
